@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MTG Quiz</string>
     <string name="header">Welcome to the basic Magic the Gathering Quiz! Please answer the questions to the best of your ability!</string>
-    <string name="question1">Which of these can you target with a lightning bolt?</string>
+    <string name="question1">Which of these can you target with a lightning bolt? (Check all that apply)</string>
     <string name="question2">Which of these is a non-permanent spell type?</string>
     <string name="question3">What does trample do?</string>
     <string name="question4">Which color is usually associated with water and mind magic?</string>
