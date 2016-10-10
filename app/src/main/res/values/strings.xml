@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MTG Quiz</string>
+    <string name="header">Welcome to the basic Magic the Gathering Quiz! Please answer the questions to the best of your ability!</string>
+    <string name="question1">Which of these can you target with a lightning bolt?</string>
+    <string name="question2">Which of these is a non-permanent spell type?</string>
+    <string name="question3">What does trample do?</string>
+    <string name="question4">Which color is usually associated with water and mind magic?</string>
+    <string name="question5">Which basic land produces white mana?</string>
+    <string name="nameQuestion">What is your name?</string>
+    <string name="land">Land</string>
+    <string name="opponent">Opponent</string>
+    <string name="creature">Creature</string>
+    <string name="planeswalker">Planeswalker</string>
+    <string name="instant">Instant</string>
+    <string name="enchantment">Enchantment</string>
+    <string name="artifact">Artifact</string>
+    <string name="trampleAnswer1">Destroys target creature.</string>
+    <string name="trampleAnswer2">Gives target creature -3/-3.</string>
+    <string name="trampleAnswer3">Taps target creature.</string>
+    <string name="trampleAnswer4">Any combat damage this creature does in excess of the blocking creature\'s
+        toughness carries over to the opponent or a planeswalker that player controls.</string>
+    <string name="red">Red</string>
+    <string name="black">Black</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="white">White</string>
+    <string name="name">Name</string>
+    <string name="answer">Answer</string>
+    <string name="buttonText">Grade it!</string>
+
+
+
+</resources>
