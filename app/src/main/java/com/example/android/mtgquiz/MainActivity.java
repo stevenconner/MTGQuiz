@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
     //Creating global variables
     int answeredCorrectly = 0;
     String name = "";
@@ -39,34 +40,39 @@ public class MainActivity extends AppCompatActivity {
             answeredCorrectly = answeredCorrectly + 1;
         }
     }
+
     private void parseQuestion2() {
         RadioButton q2a = (RadioButton) findViewById(R.id.q2a);
 
-        if (q2a.isChecked()){
+        if (q2a.isChecked()) {
             answeredCorrectly = answeredCorrectly + 1;
         }
     }
+
     private void parseQuestion3() {
         RadioButton q3a = (RadioButton) findViewById(R.id.q3a);
 
-        if (q3a.isChecked()){
+        if (q3a.isChecked()) {
             answeredCorrectly = answeredCorrectly + 1;
         }
     }
+
     private void parseQuestion4() {
         RadioButton q4a = (RadioButton) findViewById(R.id.q4a);
 
-        if (q4a.isChecked()){
+        if (q4a.isChecked()) {
             answeredCorrectly = answeredCorrectly + 1;
         }
     }
-    private void parseQuestion5(){
+
+    private void parseQuestion5() {
         EditText question_5_answer = (EditText) findViewById(R.id.question_5_answer);
         String q5a = question_5_answer.getText().toString();
-        if (q5a.equals("plains") || q5a.equals("Plains")){
+        if (q5a.equals("plains") || q5a.equals("Plains")) {
             answeredCorrectly = answeredCorrectly + 1;
         }
     }
+
     public void gradeAnswers(View view) {
         parseName();
         parseQuestion1();
